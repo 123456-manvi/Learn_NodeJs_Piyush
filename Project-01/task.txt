@@ -1,0 +1,26 @@
+//design rest api...json data port
+
+
+get /users-html document render
+get /api/users--list all users as json --done
+
+
+get /api/users/1--get the user with ID1--done
+get /api/users/2--get the user with ID2--done
+
+
+Dynamic path parameters..
+get /api/user/:id
+:id->variable | Dynamic
+
+
+
+post/api/users-create new user
+
+PATCH /api/users/1--edit the user with id1
+
+delete /api/users/1--delete the user with id1
+
+
+server--hybrid 
+api--throw json data if not add api then means throw html data 
